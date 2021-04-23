@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@github.com:argoflow/argoflow.git
+    repoURL: git@github.com:Ursanon/argoflow.git
     targetRevision: HEAD
     path: kubeflow/common/roles-namespaces
     kustomize:

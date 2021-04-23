@@ -12,10 +12,7 @@ spec:
     kustomize:
       version: v4.0.5
   destination:
-    destination:
-    name: in-cluster
-    namespace: ''
-    server: ''
+    server: https://kubernetes.default.svc
   syncPolicy:
     automated:
       prune: true

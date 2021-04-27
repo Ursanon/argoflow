@@ -15,7 +15,7 @@ spec:
       protocol: HTTP
     # Upgrade HTTP to HTTPS
     tls:
-      httpsRedirect: true
+      httpsRedirect: false
   - hosts:
     - '*'
     port:
